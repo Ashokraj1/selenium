@@ -47,3 +47,4 @@ for a in rev:
 		print(value)
 		print(driver.execute_script("return arguments[0].textContent", value))
 		# a.find_element_by_xpath("../../../../..").click()
+		

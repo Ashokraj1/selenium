@@ -34,3 +34,4 @@ for a in ele:
 			driver.find_element_by_id('add-to-cart-button').click()
 		driver.refresh()	
 		driver.find_element_by_id('nav-cart-count').click()
+		
