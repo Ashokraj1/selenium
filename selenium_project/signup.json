@@ -1,0 +1,7 @@
+{
+	"user1":{"name":"Ashok","email":"a2@gmail.com","Country":"india","address":"Chennai","mobile":123456789,"password":"qwer1234","confp":"qwer1234","course":"1,001 Calculus"},
+	"user2":{"name":"Raj","email":"r2@gmail.com","Country":"india","address":"Chennai","mobile":123456789,"password":"qwer1234","confp":"qwer1234","course":"1,001 Grammar"},
+	"user3":{"name":"Virat","email":"v2@gmail.com","Country":"india","address":"Chennai","mobile":123456789,"password":"qwer1234","confp":"qwer1234","course":"1,001 Chemistry"},
+	"user4":{"name":"Kohli","email":"k2@gmail.com","Country":"india","address":"Chennai","mobile":123456789,"password":"qwer1234","confp":"qwer1234","course":"1,001 Statistics"},
+	"user5":{"name":"Sachin","email":"s2@gmail.com","Country":"india","address":"Chennai","mobile":123456789,"password":"qwer1234","confp":"qwer1234","course":"ASVAB AFQT"}
+}
