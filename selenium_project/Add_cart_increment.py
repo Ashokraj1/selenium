@@ -2,6 +2,9 @@ import time
 from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
 
+def time_space(val):
+	return time.sleep(val)
+
 def add_cart_inc():
 	driver = webdriver.Chrome("/usr/lib/chromium-browser/chromedriver")
 
@@ -31,7 +34,7 @@ def add_cart_inc():
 					driver.find_element_by_class_name('uss-o-close-icon-medium').click()
 				else:
 					driver.back()
-				time.sleep(1)	
+				time_space(1)	
 				driver.find_element_by_id('add-to-cart-button').click()
 			driver.refresh()	
 			driver.find_element_by_id('nav-cart-count').click()

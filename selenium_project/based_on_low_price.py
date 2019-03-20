@@ -4,6 +4,9 @@ import time
 from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
 
+def time_space(val):
+	return time.sleep(val)
+
 def low_price():
 	driver = webdriver.Chrome("/usr/lib/chromium-browser/chromedriver")
 	driver.maximize_window()
@@ -11,7 +14,7 @@ def low_price():
 	search = driver.find_element_by_id('twotabsearchtextbox')
 	file = open('test.txt','r')	
 	search.send_keys(file.read())
-	time.sleep(2)
+	time_space(2)
 	ele = driver.find_elements_by_xpath('//span[@class="a-price-whole"]') #based on price
 	rev = driver.find_elements_by_xpath('//span[@class="a-declarative"]//span[@class="a-icon-alt"]') #based on review
 	val = [float(driver.execute_script("return arguments[0].textContent", a).replace(',','')) for a in ele]
